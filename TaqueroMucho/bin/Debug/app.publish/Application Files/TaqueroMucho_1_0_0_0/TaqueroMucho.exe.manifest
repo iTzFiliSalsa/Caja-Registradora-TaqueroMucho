@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TaqueroMucho.exe" version="1.0.0.0" publicKeyToken="7ae6a219e68bfa7e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TaqueroMucho" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TaqueroMucho.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TaqueroMucho.exe" size="2136032">
+      <assemblyIdentity name="TaqueroMucho" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PMmpFs+WgrAJrZAz09IKgM1iI2WwS+mLMLERhCGKECc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TaqueroMucho.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-KF9P88JK\filis" issuerKeyHash="693488abb80facc1294e7cbbc3a586d2bc67725d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RIBMTo7A7eX92JBBOZfwJMwZEWgsUY44+JCmO3wx194=</DigestValue></Reference></SignedInfo><SignatureValue>qT6LztzeSKMT0yvLxLpKskf6A49ig/stshZJchRyAOMGTnqw5pcJ8c0in6EXxGWssRJVLUYIusOjarxnD9KWrIFGCrX4rH6wu44a3VQ0t5AsiSN8yqH3HNqhC0jOz6oFMhNb+u3mqgHr4NNckH8desvyC+mqOFbSY1LW6TnQHmI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>53iVvLxJQq1l6LcWiqPvxJfl9DunZNroUdIhniJ/aJ/10Z8jmsMESZjObP5bon+1r/psb85prmOzUEXXqkaAWaOhSGbEFYIiGomIMg/FKST7F0Fy1dHKIJrSymvIQVLjnvrBsPSO75gYlIDgtsL/6HkYO0xJowa8Yxc6ySGrPk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ded7317c3ba690f8388e512c681119cc24f097394190d8fde5edc08e4e4c8044" Description="" Url=""><as:assemblyIdentity name="TaqueroMucho.exe" version="1.0.0.0" publicKeyToken="7ae6a219e68bfa7e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-KF9P88JK\filis</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gBs2ZW2JYasXUeDkK6rCbxFyD1x2+Dwu4/Yf80eutRw=</DigestValue></Reference></SignedInfo><SignatureValue>Ntrmknpp6QTI9NmQftvqZ8145IRva2F21kdfApSH1Xib38MLlA+hcVFf+vfyrg/mB62DQMdCC40k5cqFFtnD3w2sG7lFP0lo2hLDTiPT6c2tn4ZUD15l2rq+fdZCrsM3WBhsxNlv+mavJSo8DTWeI/tUSngehD85fjnpcrIMKcQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>53iVvLxJQq1l6LcWiqPvxJfl9DunZNroUdIhniJ/aJ/10Z8jmsMESZjObP5bon+1r/psb85prmOzUEXXqkaAWaOhSGbEFYIiGomIMg/FKST7F0Fy1dHKIJrSymvIQVLjnvrBsPSO75gYlIDgtsL/6HkYO0xJowa8Yxc6ySGrPk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQWMUjcwnHU5dKZUlolZHGLTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBLAEYAOQBQADgAOABKAEsAXABmAGkAbABpAHMwHhcNMTkwMjE0MDU1MTIxWhcNMjAwMjE0MTE1MTIxWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBLAEYAOQBQADgAOABKAEsAXABmAGkAbABpAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOd4lby8SUKtZei3Foqj78SX5fQ7p2Ta6FHSIZ4if2if9dGfI5rDBEmYzmz+W6J/ta/6bG/Oaa5js1BF16pGgFmjoUhmxBWCIhqJiDIPxSkk+xdBctXRyiCa0spryEFS4576wbD0ju+YGJSA4LbC/+h5GDtMSaMGvGMXOskhqz5NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA0e7zRflZey9rWUX4rt9vrCJqwkm7OZog/6cD9AWXaOwD2ue8WoGyZsYqE6Q8rjIoF+xQjcYrRNmZ/XIqDZ23lNuY2ClUlYGwr5C4EioMe/oj7oTZKFHPoZHl1Y7q7BR4xG8RwRTCgdQ0+P5XRVCCYkCRnUNU+F/XTIOg162HK0Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
